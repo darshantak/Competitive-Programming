@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+c=int(input())
+sols=[]
+sols.append(a+b*c)
+sols.append(a*(b+c))
+sols.append(a*b*c)
+sols.append((a+b)*c)
+sols.append(a+b+c)
+print(max(sols))
